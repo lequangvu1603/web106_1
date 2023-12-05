@@ -14,45 +14,30 @@
 <body>
     <!-- header -->
     <div class="sticky-top">
-        <nav class="bg-success navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class=" navbar-brand" href="#"><img src="/image/banner.png" alt="" width="100px"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+        <nav class=" navbar navbar-expand-lg bg-body-tertiary">
+            <div class="bg-success container-fluid">
+                <a class="navbar-brand" href="#"><img src="image/banner.png" alt="" width="100px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="text-white nav-link active" aria-current="page" href="#"><strong>Home</strong>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="text-white nav-link" href="#"><strong>Trang chủ</strong></a>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="text-white nav-link" href="tintuc.html"><strong>Tin tức</strong></a>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
+                            <a class="nav-link active" aria-current="page" href="#"><strong style="color: white;">Trang
+                                    chủ</strong></a>
                         </li>
                         <li class="nav-item">
-                            <a class="text-white nav-link" href="#"><strong>Trang liên hệ</strong></a>
+                            <a class="nav-link" href="tintuc.html"><strong style="color: white;">Tin tức</strong></a>
                         </li>
-
+                        <li class="nav-item">
+                            <a class="nav-link" href="tour.html"><strong style="color:white ;">Trang liên
+                                    hệ</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li>
                     </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
                 </div>
             </div>
         </nav>
